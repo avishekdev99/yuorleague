@@ -287,3 +287,41 @@ position: relative;
     margin-bottom: 50px;
 }
 /* our-platform section css end */
+
+/* tabs section css start  */
+.tabs-sec a.nav-link {
+    color: #000;
+    font-size: 18px;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #000;
+    background-color: #fff;
+    border-color: #efefef;
+    background-color: #efefef;
+}
+.tabs-sec .tab-content {
+    background-color: #efefef;
+}
+.tabs-sec .nav-tabs {
+    border-bottom: none;
+}
+.tab-wrap {
+    padding: 50px 0;
+}
+.tab-text h3 {
+    font-size: 25px;
+    margin-bottom: 5px;
+    color: #000;
+}
+.tab-text p{
+    font-size: 18px;
+}
+.learn-more a {
+    padding: 10px 30px;
+    background-color: #363692;
+    color: #fff;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 30px;
+}
+/* tabs section end */
