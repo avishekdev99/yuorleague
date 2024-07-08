@@ -250,3 +250,40 @@ overflow: hidden;
     color: #363692;
 }
 /* how it work section css end */
+/* our-platform section css start  */
+.our-platform .work-wrap{
+    padding: 15px 10px;
+    border: none;
+    border-bottom: 3px solid #363692;
+    position: relative;
+}
+.our-platform .work-wrap::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 0%;
+    width: 100%;
+    background-color: #363692;
+    transition: all 0.2s linear;
+
+}
+
+.our-platform{
+    background-color: transparent !important;
+}
+.our-platform .work-text{
+position: relative;
+}
+.our-platform .work-wrap:hover::before{
+    height: 100%;
+}
+.our-platform .col-md-3 {
+    margin-bottom: 25px;
+}
+.first-bg {
+    background-color: #efefef;
+    padding: 50px 0 60px 0;
+    margin-bottom: 50px;
+}
+/* our-platform section css end */
