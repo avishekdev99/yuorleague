@@ -324,4 +324,343 @@ position: relative;
     display: inline-block;
     margin-top: 30px;
 }
+.tab-wrap{
+    display: flex;
+
+}
+.tab-left {
+    width: 50%;
+}
+.tab-right{
+    width: 50%;
+}
+.tab-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 /* tabs section end */
+
+
+/* footer css start */
+.site-footer {
+    /* margin-top: 50px; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.footer-logo img {
+    max-width: 200px;
+}
+.footer-logo{
+    margin-bottom: 30px;
+}
+.social-icn ul li a img {
+    width: 25px;
+    margin-right: 5px;
+}
+
+.social-icn ul li a {
+    font-size: 1.125rem;
+    color: #000;
+    display: flex;
+    align-items: center;
+}
+.social-icn ul li{
+    margin: 10px 0;
+}
+.footer-heading h4 {
+    font-size: 1.5625rem;
+    margin-bottom: 30px;
+    color: #000;
+}
+.footer-links ul li a {
+    font-size: 1.125rem;
+    color: #000;
+}
+.footer-links ul li{
+    margin: 10px 0;
+}
+.footer-links ul li a:hover{
+    color: #600080;
+    text-decoration: underline;
+}
+.copy-right {
+    text-align: center;
+    border-top: 1px solid #eee;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+.copy-right p{
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+/* footer css end */
+
+/* sub pages css start */
+.site-banner.sub-banner{
+    height: 500px;
+}
+.sub-banner .banner-text h1 {
+    font-size: 40px;
+}
+.hockey-text h4 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #000;
+}
+.hockey-text p{
+    font-size: 18px;
+    color: #000;
+}
+.hockey-right ul{
+    list-style: disc;
+    padding-left: 20px;
+}
+.hockey-right ul li {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #000;
+}
+.hockey-wrap {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 25px;
+    border: 3px solid #e0e0e0cf;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+}
+.hockey-left{
+    border-right: 2px solid #e0e0e0;
+}
+.Price-wrap {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+/* newsletter section css start */
+
+.newsletter-wrap {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 50px 30px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.newsletter-heading h4 {
+    font-size: 1.5625rem;
+    margin-bottom: 10px;
+    color: #363692;
+}
+.newsletter-heading p{
+    font-size: 1rem;
+    color: #333;
+}
+.news-form input {
+    height: 45px;
+    width: 80%;
+    padding: 10px;
+    border: none;
+    background-color: #e8e8e8;
+}
+.news-form button {
+    width: 19%;
+    height: 45px;
+    border: none;
+    background: #363692;
+    color: #fff;
+    font-size: 1rem;
+}
+:focus-visible {
+    outline: none;
+}
+.download-wrap img {
+    max-width: 150px;
+    margin-inline: 20px;
+    margin-top: 20px;
+}
+.download-app .newsletter-wrap {
+    max-width: 100%;
+    background: #363692;
+    box-shadow: none;
+}
+.download-app .newsletter-heading h4{
+    color: #fff;
+}
+section.newsletter.download-app {
+    background: #efefef;
+    margin-top: 50px;
+    padding: 50px 0;
+}
+/* newsletter section end */
+.started-left h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.started-left ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin: 15px 0;
+}
+.started-left ul li{
+    font-size: 18px;
+    padding: 3px 0;
+}
+.started-left{
+    width: 50%;
+}
+.started-right{
+    width: 50%;
+}
+.started-box{
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.started-img {
+    max-width: 300px;
+    margin-left: auto;
+    height: 350px;
+}
+.slick-dots li button:before {
+    font-size: 16px;
+    opacity: .75;
+    color: #363692;
+}
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: #363692;
+}
+.slick-dots {
+    bottom: -45px;
+}
+/* sub pages css end */
+
+/* news-page css start */
+.news-left{
+    width: 70%;
+}
+.news-right{
+    width: 30%;
+}
+.news-row{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+    margin: 30px 0;
+}
+.news-banner {
+    background-image: url(../images/news-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+.news-banner::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.3;
+}
+.news-banner a{
+    position: relative;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 50px;
+}
+.news-bnr-text h2 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #fff;
+    padding: 0 25px;
+    text-align: center;
+}
+.news-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    border-bottom: 1px solid #eee;
+    padding: 20px 0;
+}
+.news-text {
+    width: 50%;
+}
+.news-img {
+    width: 50%;
+    height: auto;
+}
+.news-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.time span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.news-heading h4 a {
+    font-size: 25px;
+    color: #000;
+}
+.news-heading p {
+    font-size: 18px;
+}
+.read-more a {
+    padding: 10px 30px;
+    background: #363692;
+    color: #fff;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.headline-heading h4 {
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    color: #000;
+    background: #efefef;
+}
+.headline-left {
+    width: 40%;
+    height: auto;
+}
+.headline-right {
+    width: 60%;
+}
+.headline-news {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 15px 0;
+}
+.headline-left img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.headline-top span {
+    font-size: 14px;
+    color: #333;
+}
+.headline-name h5 a {
+    font-size: 18px;
+    color: #000;
+    line-height: 1.1;
+}
+/* news-page css end */
