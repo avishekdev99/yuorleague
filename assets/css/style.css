@@ -357,18 +357,22 @@ position: relative;
 .tab-right{
     width: 50%;
 }
-.tab-img img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
+
 .tab-img {
     height: 290px;
+    overflow: hidden;
 }
+.tab-img:hover img{
+    transform: scale(1.3);
+
+}
+
 .tab-img img{
     height: 100%;
     width: 100%;
     object-fit: cover;
+    transition: all 0.3s linear;
+
 }
 /* tabs section end */
 
