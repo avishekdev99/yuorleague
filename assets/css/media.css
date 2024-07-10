@@ -1,0 +1,234 @@
+@media(max-width:1200px){
+    html{
+        font-size: 15px;
+    }
+    .site-logo img {
+        max-width: 250px;
+    }
+    .main-nav ul {
+        gap: 20px;
+    }
+}
+
+@media(max-width:991px){
+    .site-banner {
+        height: 55vh;
+    }
+    .link-wrap {
+        height: 300px;
+    }
+    .work-wrap {
+        padding: 15px;
+    }
+    .work-icn {
+        height: 65px;
+        width: 65px;
+    }
+    .app-btn {
+        display: none;
+    }
+    .site-banner.sub-banner {
+        height: 400px;
+    }
+    .news-row {
+        flex-direction: column;
+    }
+    .news-left {
+        width: 100%;
+    }
+    .news-right {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .headline-left a{
+        height: 150px;
+        display: inline-block;
+        width: 100%;
+    }
+}
+@media(max-width:850px){
+    .link-sec .col-md-3 {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .how-it-work .col-md-4 {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .how-it-work .col-md-3 {
+        width: 50%;
+    }
+    .tab-wrap {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 30px 0;
+    }
+    .tab-right {
+        width: 100%;
+    }
+    .tab-img {
+        height: 300px;
+    }
+    .tab-left {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .learn-more a {
+        margin-top: 10px;
+    }
+    .news-banner {
+        height: 350px;
+    }
+}
+@media(max-width:767px){
+    nav {
+        flex-direction: column;
+    }
+    .site-logo {
+        margin-bottom: 10px;
+    }
+    .footer-logo {
+        margin-bottom: 20px;
+    }
+    .footer-heading h4 {
+        margin-bottom: 10px;
+    }
+    .footer-links ul li {
+        margin: 5px 0;
+    }
+    .site-footer .col-md-4 {
+        margin-bottom: 20px;
+    }
+    .site-footer .col-md-4:last-child{
+        margin-bottom: 0;
+    }
+    .download-wrap img {
+        margin-inline: 10px;
+    }
+    .started-img {
+        height: 300px;
+    }
+}
+@media(max-width:575px){
+    html{
+        font-size: 14px;
+    }
+    .banner-text h1 {
+        font-size: 3rem;
+    }
+    .site-banner {
+        height: 50vh;
+    }
+    .link-wrap {
+        height: 250px;
+    }
+    .site-heading h3 {
+        margin-bottom: 20px;
+    }
+    .how-it-work .col-md-3 {
+        width: 100%;
+    }
+    .tab-img {
+        height: 250px;
+    }
+    .tab-wrap {
+        padding: 20px 0;
+    }
+    .top-wrap {
+        padding: 15px;
+    }
+    .main-nav ul {
+        gap: 20px;
+        width: 98%;
+        overflow: scroll;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .main-nav ul li a {
+        white-space: nowrap;
+    }
+    .main-nav {
+        width: 100%;
+    }
+    .site-banner.sub-banner {
+        height: 380px;
+    }
+    .pb-50 {
+        padding-bottom: 30px;
+    }
+    .ptb-50 {
+        padding: 30px 0;
+    }
+    .news-form input {
+        width: 100%;
+    }
+    .news-form button {
+        width: 30%;
+        height: 40px;
+        margin-top: 15px;
+    }
+    .download-wrap img {
+        margin-top: 15px;
+    }
+    .hockey-wrap {
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+    .started-box {
+        flex-direction: column;
+    }
+    .started-left {
+        width: 100%;
+    }
+    .started-right {
+        width: 100%;
+    }
+    .started-img {
+        max-width: 100%;
+        height: 200px;
+    }
+    .newsletter-wrap {
+        padding: 30px 20px;
+    }
+    .news-card {
+        flex-direction: column;
+    }
+    .news-img {
+        width: 100%;
+        height: auto;
+    }
+    .news-img a{
+        display: inline-block;
+        width: 100%;
+        height: 200px;
+    }
+    .news-text {
+        width: 100%;
+    }
+    .headline-left a {
+        height: 100px;
+    }
+    .news-row {
+        gap: 0px;
+        padding: 15px;
+    }
+    .news-bnr-text h2 {
+        font-size: 2rem;
+        padding: 0 15px;
+    }
+    .detail-wrap {
+        margin-top: 20px;
+    }
+    .detail-wrap p {
+        margin-bottom: 5px;
+    }
+}
+@media(max-width:375px){
+    /* .ptb-50 {
+        padding: 30px 0;
+    } */
+    .main-nav ul {
+        justify-content: left;
+    }
+ 
+}
