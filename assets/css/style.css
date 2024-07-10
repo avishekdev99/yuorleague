@@ -664,6 +664,9 @@ section.newsletter.download-app{
     font-size: 1.5625rem;
     color: #000;
 }
+.news-heading h4 a:hover{
+    color: #363692;
+}
 .news-heading p {
     font-size: 1.125rem;
 }
@@ -714,6 +717,9 @@ color: #363692;
     font-size: 1.125rem;
     color: #000;
     line-height: 1.1;
+}
+.headline-name h5 a:hover{
+    color: #363692;
 }
 .detail-wrap p {
     font-size: 1rem;
