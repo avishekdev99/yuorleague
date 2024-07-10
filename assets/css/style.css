@@ -753,11 +753,18 @@ color: #363692;
     display: inline-block;
     height: 250px;
     width: 100%;
+    overflow: hidden;
+}
+.update-img a:hover img{
+    transform: scale(1.3);
+ 
 }
 .update-img img{
     height: 100%;
     width: 100%;
     object-fit: cover;
+    transition: all 0.3s linear;
+
 }
 .update-text h3 {
     font-size: 25px;
