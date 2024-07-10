@@ -79,6 +79,10 @@
     .news-banner {
         height: 350px;
     }
+    .news-update .col-md-4 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
 @media(max-width:767px){
     nav {
@@ -221,6 +225,12 @@
     }
     .detail-wrap p {
         margin-bottom: 5px;
+    }
+    .footer-logo img {
+        max-width: 200px;
+    }
+    .update-img a {
+        height: 200px;
     }
 }
 @media(max-width:375px){
