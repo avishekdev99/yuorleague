@@ -115,6 +115,9 @@
     .started-img {
         height: 300px;
     }
+    .hockey-left {
+        border-right: none;
+    }
 }
 @media(max-width:575px){
     html{
