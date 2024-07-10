@@ -774,3 +774,19 @@ color: #363692;
     padding-bottom: 50px;
 }
 /* update section css end */
+.privacy-wrap p {
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+.privacy-wrap{
+    margin-bottom: 30px;
+}
+.privacy-wrap ul{
+    list-style: disc;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+.privacy-wrap ul li{
+    font-size: 1rem;
+    padding: 2px 0;
+}
