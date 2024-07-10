@@ -8,6 +8,9 @@
     .main-nav ul {
         gap: 20px;
     }
+    .footer-logo img {
+        max-width: 250px;
+    }
 }
 
 @media(max-width:991px){
