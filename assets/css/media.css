@@ -121,6 +121,9 @@
     .hockey-left {
         border-right: none;
     }
+    .contact-page .site-footer {
+        position: inherit;
+    }
 }
 @media(max-width:575px){
     html{

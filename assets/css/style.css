@@ -801,3 +801,32 @@ color: #363692;
     font-size: 1rem;
     padding: 2px 0;
 }
+
+.contact-main {
+    height: calc(100vh - 76px - 383px);
+}
+.contact-main section.newsletter {
+    background: transparent;
+    margin-top: 0;
+    height: 100%;
+}
+.contact-main .container{
+    height: 100%;
+}
+.contact-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.contact-main .newsletter-wrap {
+    width: 100%;
+}
+.contact-main .newsletter-wrap .newsletter-heading h4 {
+    margin-bottom: 30px;
+}
+.contact-page .site-footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
