@@ -429,12 +429,19 @@ position: relative;
 .copy-right {
     text-align: center;
     border-top: 1px solid #eee;
-    margin-top: 30px;
     padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1320px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
-.copy-right p{
+.copy-right p, .copy-right a{
     font-size: 1rem;
     margin-bottom: 0;
+    color: #000;
 }
 .social-icn ul {
     display: flex;
@@ -870,5 +877,5 @@ color: #363692;
 .form-group button:hover{
     background: transparent;
     color: #363692;
-    
+
 }
