@@ -838,3 +838,36 @@ color: #363692;
     width: 100%;
     bottom: 0;
 }
+.form-group input, .form-group textarea{
+    height: 45px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #e8e8e8;
+}
+.form-group textarea{
+    height: 250px;
+}
+.form-group {
+    margin: 15px 0;
+}
+.contact-img {
+    height: 100%;
+}.contact-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.form-group button{
+    background: #363692;
+    border: 1px solid #363692;
+    color: #fff;
+    font-size: 1rem;
+    transition: all 0.3s linear;
+    padding: 10px 45px;
+    
+}
+.form-group button:hover{
+    background: transparent;
+    color: #363692;
+}
